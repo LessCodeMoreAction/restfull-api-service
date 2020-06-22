@@ -1,0 +1,7 @@
+{
+    "host": "postgis-db.cnv8r5qviyis.us-west-2.rds.amazonaws.com",
+    "port": 5432,
+    "database": "FIRMS_dev",
+    "user": "postgres",
+    "password":"Dontbeevil"
+  }
