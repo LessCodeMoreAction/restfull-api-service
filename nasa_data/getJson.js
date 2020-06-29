@@ -44,12 +44,6 @@ function getNASADATAGeo(req, res, next) {
 
 
 
-
-
-
-
-
-
 module.exports = {
     getNASADATA: getNASADATA,
     getNASADATAGeo: getNASADATAGeo
