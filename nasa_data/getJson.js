@@ -28,13 +28,8 @@ function getNASADATAGeo(req, res, next) {
     db.any('SELECT * FROM MODIS LIMIT 100')
     .then(function (results) {
         GeoJSON.parse(results, { Point: ['latidude', 'longitude']}, function(geojson){
-            res.status('200')
-            .json({
+            res.send(geojson)
             
-              geojson: geojson,
-           
-            });
-
         }) })
 
         .catch(function (err) {
